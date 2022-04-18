@@ -30,19 +30,14 @@ def translate(img: ndarray, shift: list = [10, 10]) -> ndarray:
     return translated_img
 
 
-def crop(
-    img: ndarray, range_x: list = [
-        100, 100], range_y: list = [
-            100, 100]) -> ndarray:
+def crop(img: ndarray, range_x: list = [100, 100], 
+         range_y: list = [100, 100]) -> ndarray:
     cropped_img = img[range_x[0]: range_x[1], range_y[0]: range_y[1]]
 
     return cropped_img
 
 
-def show_images(
-        image_1: ndarray,
-        image_2: ndarray,
-        transform: str = " ") -> None:
+def show_images(image_1: ndarray, image_2: ndarray, transform: str = " ") -> None:
     _, ax = plt.subplots(1, 2, sharex=False, sharey=False)
     ax[0].imshow(image_1)
     ax[0].set_title("original image")
@@ -64,11 +59,7 @@ if __name__ == "__main__":
         "--transform",
         type=str,
         default="scale",
-        choices=[
-            "scale",
-            "rotate",
-            "translate",
-            "crop"],
+        choices=["scale", "rotate", "translate", "crop"],
         help="Select transformation to apply")
     parser.add_argument(
         "--dim",
@@ -83,25 +74,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "--translate",
         type=int,
-        default=[
-            10,
-            10],
+        default=[10, 10],
         nargs="+",
         help="Shift right and down respectively from the center")
     parser.add_argument(
         "--crop-x",
         type=int,
-        default=[
-            0,
-            100],
+        default=[0, 100],
         nargs="+",
         help="Range along x-axis")
     parser.add_argument(
         "--crop-y",
         type=int,
-        default=[
-            0,
-            100],
+        default=[0, 100],
         nargs="+",
         help="Range along y-axis")
 
