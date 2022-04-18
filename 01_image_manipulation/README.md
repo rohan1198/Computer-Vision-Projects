@@ -10,10 +10,10 @@ Basic Image Manipulation:
 
 Usage: 
 
-General: python3 manipulation.py --img ../lena.jpg --transform crop --dim 100 --angle 45 --translate 10 40 --crop-x 0 400 --crop-y 0 400
+<b> General </b>: python3 manipulation.py --img ../lena.jpg --transform crop --dim 100 --angle 45 --translate 10 40 --crop-x 0 400 --crop-y 0 400
 
 
-Operation specific:
+<b> Operation specific </b>:
 - Scaling: python3 manipulation.py --img ../lena.jpg --transform scale --dim 100
 <br><br>
 - Rotation: python3 manipulation.py --img ../lena.jpg --transform rotate --angle 45
