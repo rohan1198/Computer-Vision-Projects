@@ -1,4 +1,4 @@
-Basic Image Manipulation:
+<h2> Basic Image Manipulation: </h2>
 
 1. Scaling
 2. Rotation
