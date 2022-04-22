@@ -17,3 +17,4 @@ Various Computer Vision and Image Processing related projects
     - Dilation
     - Opening
     - Closing
+    - Gradient
