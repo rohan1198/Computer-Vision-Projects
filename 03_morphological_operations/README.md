@@ -29,5 +29,5 @@ Closing: ```python3 morph.py --op closing --path ../lena.jpg --kernel 7``` <br>
 ![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/03_morphological_operations/assets/closed.png)
 
 <br><br>
-Closing: ```python3 morph.py --op gradient --path ../lena.jpg --kernel 7``` <br>
+Gradient: ```python3 morph.py --op gradient --path ../lena.jpg --kernel 7``` <br>
 ![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/03_morphological_operations/assets/gradient.png)
