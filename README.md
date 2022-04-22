@@ -1,4 +1,4 @@
-# Computer-Vision-Projects
+# Image Processing Projects
 Various Computer Vision and Image Processing related projects
 
 
