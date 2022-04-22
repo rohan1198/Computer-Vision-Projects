@@ -11,6 +11,7 @@
 <br><br><br><br>
 
 <b> Usage: </b> <br><br>
-For Images: python3 image_quantization.py --path ../lena.jpg --levels 4
-<br>
-For Videos: python3 video_quantization.py --path ../demo.mp4 --levels 4
+For Images: ```python3 image_quantization.py --path ../lena.jpg --levels 4``` <br>
+![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/02_colour_quantization/assets/quantized_4.png)
+<br><br>
+For Videos: ```python3 video_quantization.py --path ../demo.mp4 --levels 4```
