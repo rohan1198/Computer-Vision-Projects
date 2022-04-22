@@ -4,6 +4,7 @@
 2. Dilation
 3. Opening
 4. Closing
+5. Gradient
 
 <br><br>
 - Morphological Operations are image processing operations applied to grayscale or binary images.
