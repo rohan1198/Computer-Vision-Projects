@@ -10,13 +10,20 @@
 
 <br><br><br>
 <b> Usage: </b><br><br>
-Erosion: python3 morph.py --op erosion --path ../lena.jpg --iter 3 --kernel 7
+
+<b> General: </b>: ```python3 morph.py --op erosion --path ../lena.jpg --iter 3 --kernel 7``` <br><br>
+<b> Operation Specific: </b><br>
+Erosion: ```python3 morph.py --op erosion --path ../lena.jpg --iter 3``` <br>
+![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/03_morphological_operations/assets/eroded.png)
 
 <br><br>
-Dilation: python3 morph.py --op dilation --path ../lena.jpg --iter 3 --kernel 7
+Dilation: ```python3 morph.py --op dilation --path ../lena.jpg --iter 3``` <br>
+![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/03_morphological_operations/assets/dilated.png)
 
 <br><br>
-Opening: python3 morph.py --op opening --path ../lena.jpg --iter 3 --kernel 7
+Opening: ```python3 morph.py --op opening --path ../lena.jpg --kernel 7``` <br>
+![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/03_morphological_operations/assets/opened.png)
 
 <br><br>
-Closing: python3 morph.py --op closing --path ../lena.jpg --iter 3 --kernel 7
+Closing: ```python3 morph.py --op closing --path ../lena.jpg --kernel 7``` <br>
+![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/03_morphological_operations/assets/closed.png)
