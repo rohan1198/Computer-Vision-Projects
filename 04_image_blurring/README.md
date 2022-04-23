@@ -30,4 +30,4 @@
 
 <br><br>
 - Bilateral Blurring: ```python3 blur.py --path ../lena.jpg --method bilateral --diameter 11 --colour 61 --space 39``` <br>
-![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/04_image_blurring/assets/avg_blur.png)
+![alt text](https://github.com/rohan1198/Computer-Vision-Projects/blob/main/04_image_blurring/assets/bil_blur.png)
