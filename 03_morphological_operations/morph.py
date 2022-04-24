@@ -6,7 +6,7 @@ from numpy import ndarray
 
 def erosion(img: ndarray, iterations: int = 3) -> ndarray:
     assert len(
-        img.shape) == 2, "Please make sure input is a grayscale image dimensions (h, w)"
+        img.shape) == 2, "Please make sure input is a grayscale image with dimensions (h, w)"
     eroded_img = cv2.erode(img.copy(), None, iterations=iterations + 1)
 
     return eroded_img
@@ -14,7 +14,7 @@ def erosion(img: ndarray, iterations: int = 3) -> ndarray:
 
 def dilation(img: ndarray, iterations: int = 3) -> ndarray:
     assert len(
-        img.shape) == 2, "Please make sure input is a grayscale image dimensions (h, w)"
+        img.shape) == 2, "Please make sure input is a grayscale image with dimensions (h, w)"
     dilated_img = cv2.dilate(img.copy(), None, iterations=iterations + 1)
 
     return dilated_img
@@ -22,7 +22,7 @@ def dilation(img: ndarray, iterations: int = 3) -> ndarray:
 
 def opening(img: ndarray, kernel_size: tuple = (3, 3)) -> ndarray:
     assert len(
-        img.shape) == 2, "Please make sure input is a grayscale image dimensions (h, w)"
+        img.shape) == 2, "Please make sure input is a grayscale image with dimensions (h, w)"
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, kernel_size)
     opened_img = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
 
@@ -31,11 +31,19 @@ def opening(img: ndarray, kernel_size: tuple = (3, 3)) -> ndarray:
 
 def closing(img: ndarray, kernel_size: tuple = (3, 3)) -> ndarray:
     assert len(
-        img.shape) == 2, "Please make sure input is a grayscale image dimensions (h, w)"
+        img.shape) == 2, "Please make sure input is a grayscale image with dimensions (h, w)"
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, kernel_size)
     closed_img = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
 
     return closed_img
+
+def gradient(img: ndarray, kernel_size: tuple = (3, 3)) -> ndarray:
+    assert len(
+        img.shape) == 2, "Please make sure input is a grayscale image with dimensions (h, w)"
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, kernel_size)
+    gradient_img = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)
+
+    return gradient_img
 
 
 def show(img: ndarray, args) -> None:
