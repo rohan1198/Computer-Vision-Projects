@@ -24,3 +24,7 @@ Various Computer Vision and Image Processing related projects
     - Gaussian Blurring
     - Median Blurring
     - Bilateral Blurring
+<br><br>
+5. [Edge Detection](https://github.com/rohan1198/Image-Processing-Projects/tree/main/05_edge_detection)
+    - Manual Canny Edge Detection
+    - Automatic Cany Edge Detection
