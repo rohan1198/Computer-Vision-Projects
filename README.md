@@ -28,3 +28,7 @@ Various Computer Vision and Image Processing related projects
 5. [Edge Detection](https://github.com/rohan1198/Image-Processing-Projects/tree/main/05_edge_detection)
     - Manual Canny Edge Detection
     - Automatic Cany Edge Detection
+<br><br>
+6. [Histogram Equalization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/06_histogram_equalization)
+    - Simple Histogram Equalization
+    - Adaptive Histogram Equalization
