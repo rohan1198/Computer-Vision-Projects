@@ -1,6 +1,5 @@
 # Image Processing Projects
-Various Computer Vision and Image Processing related projects
-
+Simple Image Processing Projects with a focus on OpenCV
 
 1. [Image Manipulation](https://github.com/rohan1198/Image-Processing-Projects/tree/main/01_image_manipulation)
     - Scaling
