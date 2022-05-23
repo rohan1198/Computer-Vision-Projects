@@ -32,7 +32,9 @@ Simple Image Processing Projects with a focus on OpenCV
     - Simple Histogram Equalization
     - Adaptive Histogram Equalization
 <br><br><br>
+
+
 References:
 
-Szeliski, R. (2022), 'Computer vision algorithms and applications' , Springer , London; New York .
+Szeliski, R. (2022), 'Computer vision algorithms and applications' , Springer , London; New York <br>
 Adrian Rosebrock, PyImageSearch, https://pyimagesearch.com
