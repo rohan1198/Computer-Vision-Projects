@@ -31,3 +31,8 @@ Simple Image Processing Projects with a focus on OpenCV
 6. [Histogram Equalization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/06_histogram_equalization)
     - Simple Histogram Equalization
     - Adaptive Histogram Equalization
+<br><br><br>
+References:
+
+Szeliski, R. (2022), 'Computer vision algorithms and applications' , Springer , London; New York .
+Adrian Rosebrock, PyImageSearch, https://pyimagesearch.com
