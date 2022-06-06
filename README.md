@@ -31,7 +31,17 @@ Simple Image Processing Projects with a focus on OpenCV
 6. [Histogram Equalization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/06_histogram_equalization)
     - Simple Histogram Equalization
     - Adaptive Histogram Equalization
+<br><br>
+7. [Convolution](https://github.com/rohan1198/Image-Processing-Projects/tree/main/07_convolution)
+    - Identity
+    - 3x3 Gaussian Blur
+    - 5x5 Gaussian Blur
+    - Sharpen
+    - Outline
+    - Unsharp
+
 <br><br><br>
+
 
 
 References:
