@@ -7,11 +7,11 @@ from typing import Tuple
 
 def pad_image(img: ndarray, 
               padding: Tuple[int, int]) -> ndarray:
-    _, w = img.shape
+    h, w = img.shape
     rows, cols = padding
 
-    padded_img = np.zeros((w + rows * 2, w + cols * 2))
-    padded_img[rows: w + rows, cols: w + cols] = img
+    padded_img = np.zeros((h + rows * 2, w + cols * 2))
+    padded_img[rows: h + rows, cols: w + cols] = img
 
     return padded_img
 
