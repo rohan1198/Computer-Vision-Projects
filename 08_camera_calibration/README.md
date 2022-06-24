@@ -20,3 +20,7 @@ Extract the intrinsic and extrinsic properties of the camera, and undistort imag
 
 ![alt text](https://github.com/rohan1198/Image-Processing-Projects/blob/main/08_camera_calibration/low_res_test.jpg) 
 ![alt text](https://github.com/rohan1198/Image-Processing-Projects/blob/main/08_camera_calibration/output.jpg)
+
+
+<br><br><br><br>
+Reference: https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_calibration/py_calibration.html#calibration
