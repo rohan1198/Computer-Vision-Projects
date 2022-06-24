@@ -1,6 +1,6 @@
 <h2> Camera Calibration using OpenCV </h2>
 
-Extract the intrinsiz and extrinsic properties of the camera, and undistort images.
+Extract the intrinsic and extrinsic properties of the camera, and undistort images.
 
 <br><br><br><br>
 
@@ -18,4 +18,5 @@ Extract the intrinsiz and extrinsic properties of the camera, and undistort imag
 <b> Undistort images: </b>
 <br>```python inference.py --path low_res_test.jpg --params params.json --vis --save```
 
-![alt-text-1](https://github.com/rohan1198/Image-Processing-Projects/blob/main/08_camera_calibration/low_res_test.jpg "Original Image") ![alt-text-2](https://github.com/rohan1198/Image-Processing-Projects/blob/main/08_camera_calibration/output.jpg "Undistorted Image")
+![alt text](https://github.com/rohan1198/Image-Processing-Projects/blob/main/08_camera_calibration/low_res_test.jpg) 
+![alt text](https://github.com/rohan1198/Image-Processing-Projects/blob/main/08_camera_calibration/output.jpg)
