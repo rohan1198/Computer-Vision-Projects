@@ -39,7 +39,7 @@
     - Outline
     - Unsharp
 <br><br>
-8. [Camera Calibration](https://github.com/rohan1198/Image-Processing-Projects/tree/main/07_camera_calibration)
+8. [Camera Calibration](https://github.com/rohan1198/Image-Processing-Projects/tree/main/08_camera_calibration)
     
 
 <br><br><br>
