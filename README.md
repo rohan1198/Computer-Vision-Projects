@@ -1,4 +1,4 @@
-# Image Processing Projects
+<p align="center"><b><ins> Image Processing Projects </ins></b></p>
 
 1. [Image Manipulation](https://github.com/rohan1198/Image-Processing-Projects/tree/main/01_image_manipulation)
     - Scaling
@@ -19,7 +19,7 @@
 
 <br>
 
-1. [Colour Quantization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/02_colour_quantization)
+2. [Colour Quantization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/02_colour_quantization)
     - Image Quantization
     - Video Quantization
 
@@ -79,13 +79,33 @@
     - Manual Canny Edge Detection
     - Automatic Cany Edge Detection
 
-<br><br>
+<br>
+
+<details>
+    <summary>Output</summary>
+        <img src="./05_edge_detection/assets/overview.png"/>
+</details>
+
+<br>
+
+---
+
+<br>
 
 6. [Histogram Equalization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/06_histogram_equalization)
     - Simple Histogram Equalization
     - Adaptive Histogram Equalization
 
-<br><br>
+<details>
+    <summary>Output</summary>
+        <img src="./06_histogram_equalization/assets/overview.png"/>
+</details>
+
+<br>
+
+---
+
+<br>
 
 7. [Convolution](https://github.com/rohan1198/Image-Processing-Projects/tree/main/07_convolution)
     - Identity
@@ -95,16 +115,43 @@
     - Outline
     - Unsharp
 
-<br><br>
+<details>
+    <summary>Output</summary>
+        <img src="./07_convolution/assets/overview.png"/>
+</details>
+
+<br>
+
+---
+
+<br>
 
 8. [Camera Calibration](https://github.com/rohan1198/Image-Processing-Projects/tree/main/08_camera_calibration)
 
-<br><br>
+<details>
+    <summary>Output</summary>
+        <img src="./08_camera_calibration/vis.jpg"/>
+</details>
+
+<br>
+
+---
+
+<br>
 
 9. [Seam Carving](https://github.com/rohan1198/Image-Processing-Projects/tree/main/09_seam_carving)
     
+<details>
+    <summary>Output</summary>
+        <img src="./09_seam_carving/assets/output.png"/>
+</details>
 
-<br><br><br>
+<br>
+
+---
+
+
+<br><br>
 
 
 
