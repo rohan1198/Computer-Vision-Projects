@@ -9,6 +9,16 @@
 
 <br>
 
+<b><ins> Usage </ins></b>
+
+```python main.py --path ./assets/persistence_of_memory.jpg```
+
+<br>
+
+---
+
+<br>
+
 <b><ins> Energy Function </ins></b>
 
 - Intuitively, the goal should be to remove the unnoticable pixels that blend with their surroundings.
@@ -31,23 +41,28 @@ $$
 - This basically means that for each pixel in each channel of the image, the sum of the absolute values of the partial derivatives in the x and y direction is the energy value for that pixel.
 - The partial derivative used here is a [Sobel operation](https://en.wikipedia.org/wiki/Image_derivative).
 
+<br>
+
 $$
 p'_{u} = 
 \begin{bmatrix}
-1 & 2 & 1 \\
-0 & 0 & 0 \\
--1 & -2 & -1
-\end{bmatrix}
-* G 
-\ \ \ \  \ \ and \ \ \ \ \ \ \
+    1 & 2 & 1\\
+    0 & 0 & 0\\
+    -1 & -2 & -1\\
+\end{bmatrix} * G
+$$
+
+and
+
+$$
 p'_{v} = 
 \begin{bmatrix}
-1 & 0 & -1 \\
-2 & 0 & -2 \\
-1 & 0 & -1
-\end{bmatrix}
-* G
+    1 & 0 & -1\\
+    2 & 0 & -2\\
+    1 & 0 & -1\\
+\end{bmatrix} * G
 $$
+
 
 <br>
 
