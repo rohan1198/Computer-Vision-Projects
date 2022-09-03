@@ -20,7 +20,15 @@
     - Image Quantization
     - Video Quantization
 
-<br><br>
+<br>
+
+<img src="./02_colour_quantization/assets/overview.png" width="416"/>
+
+<br>
+
+---
+
+<br>
 
 3. [Morphological Operations](https://github.com/rohan1198/Image-Processing-Projects/tree/main/03_morphological_operations)
     - Erosion
@@ -29,7 +37,15 @@
     - Closing
     - Gradient
 
-<br><br>
+<br>
+
+<img src="./03_morphological_operations/assets/overview.png" width="416"/>
+
+<br>
+
+---
+
+<br>
 
 4. [Image Blurring](https://github.com/rohan1198/Image-Processing-Projects/tree/main/04_image_blurring)
     - Average Blurring
