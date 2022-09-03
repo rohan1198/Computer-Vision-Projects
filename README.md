@@ -8,7 +8,10 @@
 
 <br>
 
-<img src="./01_image_manipulation/assets/overview.png" width="416"/>
+<details>
+    <summary>Output</summary>
+        <img src="./01_image_manipulation/assets/overview.png"/>
+</details>
 
 <br>
 
@@ -16,13 +19,16 @@
 
 <br>
 
-2. [Colour Quantization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/02_colour_quantization)
+1. [Colour Quantization](https://github.com/rohan1198/Image-Processing-Projects/tree/main/02_colour_quantization)
     - Image Quantization
     - Video Quantization
 
 <br>
 
-<img src="./02_colour_quantization/assets/overview.png" width="416"/>
+<details>
+    <summary>Output</summary>
+        <img src="./02_colour_quantization/assets/overview.png"/>
+</details>
 
 <br>
 
@@ -39,7 +45,10 @@
 
 <br>
 
-<img src="./03_morphological_operations/assets/overview.png" width="416"/>
+<details>
+    <summary>Output</summary>
+        <img src="./03_morphological_operations/assets/overview.png"/>
+</details>
 
 <br>
 
@@ -53,7 +62,18 @@
     - Median Blurring
     - Bilateral Blurring
 
-<br><br>
+<br>
+
+<details>
+    <summary>Output</summary>
+        <img src="./04_image_blurring/assets/overview.png"/>
+</details>
+
+<br>
+
+---
+
+<br>
 
 5. [Edge Detection](https://github.com/rohan1198/Image-Processing-Projects/tree/main/05_edge_detection)
     - Manual Canny Edge Detection
