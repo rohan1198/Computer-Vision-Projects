@@ -40,6 +40,8 @@
     - Unsharp
 <br><br>
 8. [Camera Calibration](https://github.com/rohan1198/Image-Processing-Projects/tree/main/08_camera_calibration)
+<br><br>
+9. [Seam Carving](https://github.com/rohan1198/Image-Processing-Projects/tree/main/09_seam_carving)
     
 
 <br><br><br>
